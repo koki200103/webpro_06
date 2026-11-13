@@ -8,6 +8,12 @@ stateDiagram-v2
 /public/janken.html --> /janken:手を選択(1)
 /janken --> /janken:手を選択(2)
 ```
+```mermaid
+stateDiagram-v2
+    [*] --> /public/keiyo_add.html
+    /public/keiyo_add.html --> /keiyo_add
+    /keiyo_add --> /view/keiyo.ejsによる一覧表示
+```
 
 #### (1)のパラメータ
 
